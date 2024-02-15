@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CB58ACC2B7452A90063EDBE /* HourlyForecastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB58ACB2B7452A90063EDBE /* HourlyForecastCollectionViewCell.swift */; };
+		9CB58ACE2B745BE10063EDBE /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB58ACD2B745BE10063EDBE /* Color+Extensions.swift */; };
+		9CB706502B7E92F100DF301C /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7064F2B7E92F100DF301C /* DailyForecastTableViewCell.swift */; };
+		9CB706522B7EABD600DF301C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB706512B7EABD600DF301C /* UIView+Extensions.swift */; };
 		9CFEB25E2B718096006599B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEB25D2B718096006599B3 /* AppDelegate.swift */; };
 		9CFEB2602B718096006599B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEB25F2B718096006599B3 /* SceneDelegate.swift */; };
 		9CFEB2622B718096006599B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEB2612B718096006599B3 /* ViewController.swift */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9CB58ACB2B7452A90063EDBE /* HourlyForecastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CB58ACD2B745BE10063EDBE /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		9CB7064F2B7E92F100DF301C /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
+		9CB706512B7EABD600DF301C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		9CFEB25A2B718096006599B3 /* Aplicativo Do Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aplicativo Do Tempo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFEB25D2B718096006599B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFEB25F2B718096006599B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,9 +65,13 @@
 				9CFEB25D2B718096006599B3 /* AppDelegate.swift */,
 				9CFEB25F2B718096006599B3 /* SceneDelegate.swift */,
 				9CFEB2612B718096006599B3 /* ViewController.swift */,
+				9CB58ACB2B7452A90063EDBE /* HourlyForecastCollectionViewCell.swift */,
 				9CFEB2662B718099006599B3 /* Assets.xcassets */,
 				9CFEB2682B718099006599B3 /* LaunchScreen.storyboard */,
 				9CFEB26B2B718099006599B3 /* Info.plist */,
+				9CB58ACD2B745BE10063EDBE /* Color+Extensions.swift */,
+				9CB7064F2B7E92F100DF301C /* DailyForecastTableViewCell.swift */,
+				9CB706512B7EABD600DF301C /* UIView+Extensions.swift */,
 			);
 			path = "Aplicativo Do Tempo";
 			sourceTree = "<group>";
@@ -134,8 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB706522B7EABD600DF301C /* UIView+Extensions.swift in Sources */,
+				9CB58ACE2B745BE10063EDBE /* Color+Extensions.swift in Sources */,
 				9CFEB2622B718096006599B3 /* ViewController.swift in Sources */,
+				9CB706502B7E92F100DF301C /* DailyForecastTableViewCell.swift in Sources */,
 				9CFEB25E2B718096006599B3 /* AppDelegate.swift in Sources */,
+				9CB58ACC2B7452A90063EDBE /* HourlyForecastCollectionViewCell.swift in Sources */,
 				9CFEB2602B718096006599B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
