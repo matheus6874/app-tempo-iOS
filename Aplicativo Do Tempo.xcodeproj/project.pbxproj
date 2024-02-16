@@ -11,6 +11,7 @@
 		9CB58ACE2B745BE10063EDBE /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB58ACD2B745BE10063EDBE /* Color+Extensions.swift */; };
 		9CB706502B7E92F100DF301C /* DailyForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB7064F2B7E92F100DF301C /* DailyForecastTableViewCell.swift */; };
 		9CB706522B7EABD600DF301C /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB706512B7EABD600DF301C /* UIView+Extensions.swift */; };
+		9CB706542B7F961B00DF301C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB706532B7F961B00DF301C /* Service.swift */; };
 		9CFEB25E2B718096006599B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEB25D2B718096006599B3 /* AppDelegate.swift */; };
 		9CFEB2602B718096006599B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEB25F2B718096006599B3 /* SceneDelegate.swift */; };
 		9CFEB2622B718096006599B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFEB2612B718096006599B3 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		9CB58ACD2B745BE10063EDBE /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		9CB7064F2B7E92F100DF301C /* DailyForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastTableViewCell.swift; sourceTree = "<group>"; };
 		9CB706512B7EABD600DF301C /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		9CB706532B7F961B00DF301C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9CFEB25A2B718096006599B3 /* Aplicativo Do Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aplicativo Do Tempo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CFEB25D2B718096006599B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CFEB25F2B718096006599B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 		9CFEB25C2B718096006599B3 /* Aplicativo Do Tempo */ = {
 			isa = PBXGroup;
 			children = (
+				9CB706532B7F961B00DF301C /* Service.swift */,
 				9CFEB25D2B718096006599B3 /* AppDelegate.swift */,
 				9CFEB25F2B718096006599B3 /* SceneDelegate.swift */,
 				9CFEB2612B718096006599B3 /* ViewController.swift */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB706522B7EABD600DF301C /* UIView+Extensions.swift in Sources */,
+				9CB706542B7F961B00DF301C /* Service.swift in Sources */,
 				9CB58ACE2B745BE10063EDBE /* Color+Extensions.swift in Sources */,
 				9CFEB2622B718096006599B3 /* ViewController.swift in Sources */,
 				9CB706502B7E92F100DF301C /* DailyForecastTableViewCell.swift in Sources */,
